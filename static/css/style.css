@@ -1,0 +1,22 @@
+.block-list li{
+    display: inline-block;
+    margin-left: 25px;
+    box-shadow: 0 10px 13px -7px #000000;
+    border-radius: 10px;
+}
+
+
+.list-container{
+    position: absolute;
+    top: 40%;
+    bottom: 50%;
+    left: 30%;
+
+}
+
+.searchbar-container{
+    position: absolute;
+    right: 0;
+    padding-right: 10px
+}
+

@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register Form</title>
+    <link href="static/css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="searchbar-container">
+        <form action="/search">
+            <label for="searchbar">Search:</label>
+            <input name="email"  id="searchbar"  type="search"  placeholder="searching...">
+            <button type="submit" value="search">🔎</button>
+        </form>
+    </div>
+
+    <div class="header"><h1>Register Form:</h1></div>
+    <div class="main-container">
+    <form action="/register" method="post">
+        <div class="content">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <br>
+        <div class="content">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <br>
+        <div class="content">
+            <label for="surname">Surname:</label>
+            <input type="text" id="surname" name="surname" required>
+        </div>
+        <br>
+        <div class="content">
+            <label for="age">Birth Date:</label>
+            <input type="number" id="age" name="age" required>
+        </div>
+        <br>
+        <button class="submit" type="submit">Confirm</button>
+    </form>
+    </div>
+    <br>
+    <button><a href="/">&larr;Back</a></button>
+</body>
+</html>

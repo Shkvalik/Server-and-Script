@@ -1,0 +1,21 @@
+{
+  "name": "test-task-for-speroteck",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node routes.js",
+    "csv": "node getcsv.js"
+  },
+  "keywords": [],
+  "author": "Valentin Kovalenko",
+  "license": "ISC",
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "html": "^1.0.0",
+    "node-fetch": "2.0",
+    "pg": "^8.7.3"
+  }
+}
