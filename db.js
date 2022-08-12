@@ -27,7 +27,7 @@ class DataBase {
         try {
             const users = await pool.query(`SELECT concat(name, ' ', surname) AS fullname
                                             FROM users
-                                            WHERE email LIKE ($1)`, [input])
+                                            WHERE email LIKE ($1)`, [input + '%'])
             return users.rows.map(({fullname})=>fullname);
         } catch (err) {
             return err
