@@ -20,9 +20,12 @@ npm run csv
 
 #### Stack:
 * NodeJs 16+
-* Express 4.18+
+* express 4.18+
 * pg 8.7+
-* Postgres 14+
+* dotenv 16+
+* csv-writer 1.6+
+* node-fetch 2.0
+* PostgreSQL 14+
 * HTML/CSS
 
 #### Client:
